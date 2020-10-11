@@ -1,7 +1,12 @@
 package com.marcos.padilha.pagarContas.MySql.Entity;
 
+import lombok.Getter;
+import lombok.Setter;
+
 import javax.persistence.*;
 
+@Getter
+@Setter
 @Entity
 @Table(name = "CALCULO_CONTAS", schema = "PAGAMENTO")
 public class CalculoContasEntity {

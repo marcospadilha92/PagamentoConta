@@ -5,8 +5,6 @@ import lombok.Getter;
 import lombok.Setter;
 
 import java.time.LocalDate;
-import java.time.LocalDateTime;
-import java.util.Date;
 
 @Getter
 @Setter
@@ -16,7 +14,7 @@ public class Conta {
     @JsonProperty("valorOriginal")
     private Double valorOriginal;
     @JsonProperty("dataPagamento")
-    private LocalDate dataPagamento;
+    private String dataPagamento;
     @JsonProperty("dataVencimento")
-    private LocalDate dataVencimento;
+    private String dataVencimento;
 }
